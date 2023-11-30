@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>getElementByIdclassname</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script>
+        function test()
+        {
+           var cont= document.getElementById("my");
+           var cont1= document.getElementById("my1");
+           var cont2= document.getElementById("my2");
+           
+
+           cont.classList.add("content");
+           cont1.classList.add("content1");
+           cont2.classList.add("content2");
+        
+        }
+    </script>
+    <style>
+        .content
+        {
+            width: 70%;
+            height: 70px;
+            margin: 5%;
+            background-color: brown;
+            
+        }
+
+        .content1
+        {
+            width: 70%;
+            height: 70px;
+            margin: 5%;
+            background-color: blue;
+            
+        }
+        .content2
+        {
+            width: 70%;
+            height: 70px;
+            margin: 5%;
+            background-color: brown;
+            
+        }
+    </style>
+</head>
+<body onload="test()">
+    <div id ="my">
+             hello i  am a google
+    </div>
+
+    <div id ="my1">
+        hello i  am a google
+</div>
+
+<div id ="my2">
+    hello i  am a google
+</div>
+
+</body>
+</html>

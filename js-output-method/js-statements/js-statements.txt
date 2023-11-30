@@ -1,0 +1,147 @@
+what is javascript statements?
+
+
+ ans:  javascript statements are used to check conditions or true and false or check loop etc.
+
+types of statements:
+      
+      a) conditions statements:
+           1) if:
+                  if is executed when conditions is true
+            syntex:
+                     if(conditions)
+                     {
+                        statements;
+                     }
+
+           2) if else:
+                    if else statements: if is executed when conditions is true when conditions is false else is executed
+               syntex:
+                       if(conditions)
+                       {
+                         statements;
+                       }
+                        else
+                        {
+                          statements;
+                        }
+           3) nested if :
+                      condition within another condition there we used nested if conditions.
+                syntex:
+                       if(condition)
+                       {
+                        if(condition)
+                        {
+                          statements;
+                        }
+                       } 
+                       else 
+                       {
+                        statements;
+                       }
+           4) if else if:
+                       if else if statements: if is executed when conditions is true else if is executed  while check multiple true condition when condition is true  executed multipes time when condition is false else is executed
+
+                syntex:
+                      if(condition)
+                      {
+                        statements;
+                      }
+                      else if(condition)
+                      {
+                        statements;
+                      }
+                      else if(condition)
+                      {
+                        statements;
+                      }
+                      else if(condition)
+                      {
+                        statements;
+                      }
+                      else
+                      {
+                        statements;
+                      }
+                    
+           5) switch:
+                    switch just like if else if where we check multiple condition at once time here we make case forcheck true condition if condition is false default is executed
+                  syntex:
+                        switch (condition)
+                        {
+                          case 'A';
+                          statements;
+                          break;
+
+                          default;
+                          break;
+                    
+                        }     
+      B) looping statements:
+                        loop are used to print number of iterations  again and again or repeted more than once time there we apply loop 
+
+           1) for :
+                    for loop is executed when condition is true 
+               syntex:
+                     for(intliazation;conditions;increment/decrement)
+                     {
+                      statements;
+                     }
+
+
+           2) foreach:
+                     array is stored data inside of []
+                     array is  used to stored multiple data in a single variables there we used array 
+                     foreach convert array as  values 
+                  syntex:
+                        array.foreach(element)
+                        {
+                          statements;
+                        }
+
+                      array.foreach(callback function());
+
+
+                        
+           3) nested loop:
+                         loop within another loopis called nested loop.
+                  syntex:
+                         for(intliazation;condition;increment)
+                         {
+                          for( intliazation;condition;increment)
+                          {
+                            statements;
+                          }
+                         }
+           4) while :
+                     when condition is true while loop are executed
+                  syntex:
+                          while(condition);
+                          {
+                            statements;
+                            increment/decrement;
+                          }
+           5) do while: 
+                       do will be executed one time  while condition is true or false when condition is true while loop are executed.
+                  syntex:
+                         do
+                         {
+                            statements;
+                            increment/decrement;
+                         }
+                         while(condition)
+
+      c) jumping statements:
+           1) break:
+                syntex:
+                        var i;
+                        for(statements)
+                        {
+                          if(condition)
+                          {
+                            break;
+                          }
+                          document.write("statements");
+                        }
+
+           2) continue
